@@ -1,716 +1,187 @@
 //----------------------
 
+###I want to get [straight on with some coding][onwithsomecoding]
 
-##graphics##
+###I want to understand the [available Classes][classes]
 
+###I want to [explore the methods][methods]
 
-###ofPath###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofTTFContour###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofImage###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofSubPath###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofGraphics###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-ofBackground(...)
-
-ofBackgroundGradient()
-
-ofBackgroundHex(...)
-
-ofBeginSaveScreenAsPDF(...)
-
-ofBeginShape()
-
-ofBezier(...)
-
-ofBezierVertex(...)
-
-ofBgColorPtr()
-
-ofBox(...)
-
-ofCircle(...)
-
-ofClear(...)
-
-ofClearAlpha()
-
-ofCone(...)
-
-ofCurve(...)
-
-ofCurveVertex(...)
-
-ofCurveVertices(...)
-
-ofDisableAlphaBlending()
-
-ofDisableBlendMode()
-
-ofDisablePointSprites()
-
-ofDisableSmoothing()
-
-ofDrawBitmapString(...)
-
-ofDrawBitmapStringHighlight(...)
-
-ofEllipse(...)
-
-ofEnableAlphaBlending()
-
-ofEnableBlendMode(...)
-
-ofEnablePointSprites()
-
-ofEnableSmoothing()
-
-ofEndSaveScreenAsPDF()
-
-ofEndShape(...)
-
-ofFill()
-
-ofGetCoordHandedness()
-
-ofGetCurrentRenderer()
-
-ofGetCurrentViewport()
-
-ofGetFill()
-
-ofGetGLRenderer()
-
-ofGetRectMode()
-
-ofGetStyle()
-
-ofGetViewportHeight()
-
-ofGetViewportWidth()
-
-ofLine(...)
-
-ofNextContour(...)
-
-ofNoFill()
-
-ofOrientationToDegrees(...)
-
-ofPopMatrix()
-
-ofPopStyle()
-
-ofPopView()
-
-ofPushMatrix()
-
-ofPushStyle()
-
-ofPushView()
-
-ofRect(...)
-
-ofRectRounded(...)
-
-ofRotate(...)
-
-ofRotateX(...)
-
-ofRotateY(...)
-
-ofRotateZ(...)
-
-ofScale(...)
-
-ofSetBackgroundAuto(...)
-
-ofSetBackgroundColor(...)
-
-ofSetBackgroundColorHex(...)
-
-ofSetCircleResolution(...)
-
-ofSetColor(...)
-
-ofSetCoordHandedness(...)
-
-ofSetCurrentRenderer(...)
-
-ofSetCurveResolution(...)
-
-ofSetDrawBitmapMode(...)
-
-ofSetHexColor(...)
-
-ofSetLineWidth(...)
-
-ofSetPolyMode(...)
-
-ofSetRectMode(...)
-
-ofSetSphereResolution(...)
-
-ofSetStyle(...)
-
-ofSetupGraphicDefaults()
-
-ofSetupScreen()
-
-ofSetupScreenOrtho(...)
-
-ofSetupScreenPerspective(...)
-
-ofSphere(...)
-
-ofTranslate(...)
-
-ofTriangle(...)
-
-ofVertex(...)
-
-ofVertices(...)
-
-ofViewport(...)
-
-###ofTrueTypeFont###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofPolyline###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofBitmapFont###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-ofDrawBitmapCharacter(...)
-
-ofDrawBitmapCharacterEnd()
-
-ofDrawBitmapCharacterStart(...)
-
-###ofTTFCharacter###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofTessellator###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofImage_###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofCairoRenderer###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofRendererCollection###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofPolyUtils###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-ofGetBoundingBox(...)
-
-ofGetClosestPoint(...)
-
-ofGetResampledCount(...)
-
-ofGetResampledSpacing(...)
-
-ofGetSmoothed(...)
-
-###ofPixels###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofPixels_###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-
-
-
+###I need some help getting started programming
 
 //----------------------
 
+#Introduction#
+
+The openFrameworks documentation has been designed to be used in two different, but not necessarily separate ways. 
+
+A straightforward point of entry might be to answer one the the following questions about the way you’d like to use the documentation and click on the appropriate link to get started.
+
+##How to make the most of using the documentation##
+
+The general structure of the openFrameworks documentation is designed to support the first-time user who may have some previous experience of C++, but needs to become familiar with the classes, methods and structure of working with openFrameworks. One possible way fo working is to have it open alongside the examples supplied in the latest download of openFrameworks.
+
+Using it in this way means that you can easily search for the explanation of a class or method if you come across it in the example and want to explore it further. This way you might even uncover some of the less well known methods that the writers of the examples may not have used in their code (always a good way of showing off your skills and developing your programs).
+
+The other way of using the code is for those programmers with more experience and knowledge of openFrameworks. Or perhaps you just prefer to work from the classes and methods, and put things together for yourself? If you’re one of these types, then you can get stuck straight in. Over time, short snippets of code will be added to the documentation to help explain ways of applying it.
+
+###And finally...###
+
+If there’s anything you’d like to add, then please contact the documentation team. We’re always looking for more people to join us, so if you’d even like to get stuck in and become part of the team, let us know. 
+
+//----------------------
+
+##Introduction
+
+openFrameworks is an open source C++ toolkit for creative coding.
+
+###Is it a program?
+
+OF is not itself a program or an application but you can use OF to write your own programs and applications.
+
+###Is it a programming language?
+
+OF does not constitute its own programming language, the language you use to write programs with OF is C++.
+
+###So it's a library?
+
+OF is in fact made up of several software libraries but the specific way it integrates these libraries together is more appropriately called a software framework.
+
+###What is a software framework?
+
+A software framework is a kind of pre-fabricated software infrastructure designed to provide all of the low level functionality needed for an application while allowing a programmer to customize the higher level details of what that application should do. One way that using a framework differs from using a library is that the flow of control is inverted. A library can be directly controlled by your code to perform a set of general tasks. In a framework your code responds to events controlled by the framework and uses the framework as an interface to access the functionality of other libraries. Sound complicated? In fact many other multimedia authoring environments work this way even if they do so less transparently.
+Consider this loose analogy: You are writing and directing your own film and have decided to work with a film production company. The production company reserves the location, provides all of the infrastructure, finds the camera crew, lighting director, sound engineer and other important staff. It makes sure everyone is on the set on time and doing their job when they should, including you. Your job is to define what happens on the set once everyone is ready. OpenFrameworks is like a film production company for your program. It takes care of the administrative and logistical details and allows you to concentrate on your creative vision.
 
 
 
 
+  [onwithsomecoding]: http://www.openframeworks.cc/  "Title"
+  [classes]: http://www.google.com 
+  [methods]: http://www.openframeworks.cc/ 
+
+###ofArduino###
+__visible: true__
+__advanced: false__
+
+
+//----------------------
 
 ##3d##
 
-
 ###ofNode###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofEasyCam###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofMesh###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofCamera###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 //----------------------
-
-
-
-
-
-
-##gl##
-
-
-###ofMaterial###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofFbo###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofGLRenderer###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofVbo###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofTextureData###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofShader###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofVboMesh###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofTexture###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofGLUtils###
-
-__visible: false__
-
-__advanced: true__
-
-__functions__
-ofGetGLPolyMode(...)
-
-ofGetGLPrimitiveMode(...)
-
-ofGetGLTypeFromPixelFormat(...)
-
-ofGetOFPolyMode(...)
-
-ofGetOFPrimitiveMode(...)
-
-###ofLight###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-ofDisableLighting()
-
-ofDisableSeparateSpecularLight()
-
-ofEnableLighting()
-
-ofEnableSeparateSpecularLight()
-
-ofGetLightingEnabled()
-
-ofSetGlobalAmbientColor(...)
-
-ofSetSmoothLighting(...)
-
-//----------------------
-
-
-
-
-
-
-___column___
-
-
-
 
 ##math##
 
-
 ###ofVec2f###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofMatrix4x4###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofMath###
-
 __visible: true__
-
 __advanced: false__
 
-__functions__
-ofAngleDifferenceDegrees(...)
-
-ofAngleDifferenceRadians(...)
-
-ofAngleSumRadians(...)
-
-ofBezierPoint(...)
-
-ofBezierTangent(...)
-
-ofClamp(...)
-
-ofCurvePoint(...)
-
-ofCurveTangent(...)
-
-ofDegToRad(...)
-
-ofDist(...)
-
-ofDistSquared(...)
-
-ofInRange(...)
-
-ofInsidePoly(...)
-
-ofLerp(...)
-
-ofLerpDegrees(...)
-
-ofLerpRadians(...)
-
-ofLineSegmentIntersection(...)
-
-ofMap(...)
-
-ofNextPow2(...)
-
-ofNoise(...)
-
-ofNormalize(...)
-
-ofRadToDeg(...)
-
-ofRandom(...)
-
-ofRandomHeight()
-
-ofRandomWidth()
-
-ofRandomf()
-
-ofRandomuf()
-
-ofSeedRandom()
-
-ofSign(...)
-
-ofSignedNoise(...)
-
-ofWrapDegrees(...)
-
-ofWrapRadians(...)
 
 ###ofQuaternion###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofMatrix3x3###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofVec4f###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofVec3f###
-
 __visible: true__
-
 __advanced: false__
 
-__functions__
-
-
-###ofNoise###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-_slang_library_noise1(...)
-
-_slang_library_noise2(...)
-
-_slang_library_noise3(...)
-
-_slang_library_noise4(...)
-
-grad1(...)
-
-grad2(...)
-
-grad3(...)
-
-grad4(...)
 
 //----------------------
 
+##gl##
+
+###ofMaterial###
+__visible: true__
+__advanced: false__
+
+
+###ofFbo###
+__visible: true__
+__advanced: false__
+
+
+###ofGLRenderer###
+__visible: true__
+__advanced: false__
+
+
+###ofVbo###
+__visible: true__
+__advanced: false__
+
+
+###ofTextureData###
+__visible: true__
+__advanced: false__
+
+
+###ofShader###
+__visible: true__
+__advanced: false__
+
+
+###ofVboMesh###
+__visible: true__
+__advanced: false__
+
+
+###ofTexture###
+__visible: true__
+__advanced: false__
+
+
+###ofGLUtils###
+__visible: true__
+__advanced: false__
+__functions__
+ofGetGLPolyMode(...)
+ofGetOFPolyMode(...)
+ofGetGLPrimitiveMode(...)
+
+
+###ofLight###
+__visible: true__
+__advanced: false__
 
 
 
@@ -718,1266 +189,657 @@ grad4(...)
 
 
 
-
-
-
-
+//----------------------
 
 ##utils##
 
-
 ###ofDirectory###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofHttpResponse###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofFileDialogResult###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###std::tr1::shared_ptr###
-
 __visible: false__
-
 __advanced: true__
-
-__functions__
-
-
 
 
 ###ofLogError###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofLogWarning###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofSystemUtils###
-
 __visible: true__
-
 __advanced: false__
-
 __functions__
 ofSystemAlertDialog(...)
 
-ofSystemLoadDialog(...)
-
-ofSystemSaveDialog(...)
-
-ofSystemTextBoxDialog(...)
 
 ###ofFileLoggerChannel###
-
 __visible: true__
-
 __advanced: true__
-
-__functions__
-
-
 
 
 ###ofBuffer###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofFile###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofLogNotice###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
-
 
 ###ofFileUtils###
-
 __visible: true__
-
 __advanced: false__
-
 __functions__
-ofBufferFromFile(...)
 
-ofBufferToFile(...)
 
 ###ofFilePath###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofConsoleLoggerChannel###
-
 __visible: true__
-
 __advanced: true__
-
-__functions__
-
-
 
 
 ###ofHttpRequest###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofLogVerbose###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofLog###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ExtensionComparator###
-
 __visible: true__
-
 __advanced: true__
-
-__functions__
-
-
 
 
 ###ofUtils###
-
 __visible: true__
-
 __advanced: false__
 
-__functions__
-ofBinaryToChar(...)
-
-ofBinaryToFloat(...)
-
-ofBinaryToInt(...)
-
-ofBinaryToString(...)
-
-ofContains(...)
-
-ofDisableDataPath()
-
-ofEnableDataPath()
-
-ofFind(...)
-
-ofGetDay()
-
-ofGetElapsedTimeMicros()
-
-ofGetElapsedTimeMillis()
-
-ofGetElapsedTimef()
-
-ofGetFrameNum()
-
-ofGetHours()
-
-ofGetMinutes()
-
-ofGetMonth()
-
-ofGetSeconds()
-
-ofGetSystemTime()
-
-ofGetSystemTimeMicros()
-
-ofGetTargetPlatform()
-
-ofGetTimestampString()
-
-ofGetUnixTime()
-
-ofGetVersionInfo()
-
-ofGetWeekday()
-
-ofGetYear()
-
-ofHexToChar(...)
-
-ofHexToFloat(...)
-
-ofHexToInt(...)
-
-ofHexToString(...)
-
-ofIsStringInString(...)
-
-ofJoinString(...)
-
-ofLaunchBrowser(...)
-
-ofNextPow2(...)
-
-ofRandomize(...)
-
-ofRemove(...)
-
-ofResetElapsedTimeCounter()
-
-ofSaveFrame()
-
-ofSaveScreen(...)
-
-ofSaveViewport(...)
-
-ofSetDataPathRoot(...)
-
-ofSort(...)
-
-ofSplitString(...)
-
-ofStringReplace(...)
-
-ofSystem(...)
-
-ofToBinary(...)
-
-ofToBool(...)
-
-ofToChar(...)
-
-ofToDataPath(...)
-
-ofToFloat(...)
-
-ofToHex(...)
-
-ofToInt(...)
-
-ofToLower(...)
-
-ofToString(...)
-
-ofToUpper(...)
-
-ofVAArgsToString(...)
 
 ###ofThread###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofLogFatalError###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofURLFileLoader###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
-
-
-//----------------------
-
-
-
-
-
-
-___column___
-
-
-
-
-##types##
-
-
-###ofColor###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofAbstractHasPixels###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseSoundStream###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseHasTexture###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseImage###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseRenderer###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseUpdates###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseDraws###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseSoundOutput###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseSoundInput###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseLoggerChannel###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseVideoPlayer###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofStyle###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofBaseSoundPlayer###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseVideoGrabber###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseVideoDraws###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofRectangle###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofBaseVideo###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseHasPixels_###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofPoint###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofBaseHasPixels###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofAbstractImage###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseImage_###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofBaseTypes###
-
-__visible: true__
-
-__advanced: true__
-
-__functions__
-
-
-
-
-###ofPtr###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofTypes###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-dynamic_pointer_cast(...)
-
-###ofColor_###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-
-
-
 
 //----------------------
 
 ##video##
 
-
 ###ofGstVideoGrabber###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofGstAppSink###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofQuickTimePlayer###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofGstUtils###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofiPhoneVideoPlayer###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofGstVideoPlayer###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofGstVideoUtils###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofVideoPlayer###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofVideoGrabber###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofDirectShowGrabber###
-
 __visible: false__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofiPhoneVideoGrabber###
-
 __visible: false__
-
 __advanced: false__
 
-__functions__
+
+
+___column___
 
 
 
 
-###ofQuickTimeGrabber###
+##graphics##
 
+###ofPath###
 __visible: true__
+__advanced: false__
 
+
+###ofTTFContour###
+__visible: true__
 __advanced: true__
 
-__functions__
 
-
-
-
-###ofVideoSavedEventArgs###
-
+###ofImage###
 __visible: true__
+__advanced: false__
 
+
+###ofSubPath###
+__visible: true__
 __advanced: true__
 
-__functions__
 
-
-
-
-###ofQTKitPlayer###
-
+###ofGraphics###
 __visible: true__
+__advanced: false__
+__functions__
+ofBackground(...)
+ofBgColorPtr()
+ofSetBackgroundAuto(...)
+ofbClearBg()
+ofSetCircleResolution(...)
+ofSetRectMode(...)
+ofGetRectMode()
+ofRect(...)
+ofTriangle(...)
+ofCircle(...)
+ofEllipse(...)
+ofLine(...)
+ofCurve(...)
+ofBezier(...)
+ofSetPolyMode(...)
+ofBeginShape()
+ofVertex(...)
+ofCurveVertex(...)
+ofBezierVertex(...)
+ofNextContour(...)
+ofEndShape(...)
+ofNoFill()
+ofFill()
+ofSetColor(...)
+ofEnableAlphaBlending()
+ofDisableAlphaBlending()
+ofEnableSmoothing()
+ofDisableSmoothing()
+ofDrawBitmapString(...)
+ofRotate(...)
+ofRotateX(...)
+ofRotateY(...)
+ofRotateZ(...)
+ofPushStyle()
+ofPopStyle()
+ofSetStyle(...)
+ofGetStyle()
+ofSetLineWidth(...)
+ofPushMatrix()
+ofPopMatrix()
+ofTranslate(...)
+ofScale(...)
+ofSetupGraphicDefaults()
+ofSetCurrentRenderer(...)
+ofGetCurrentRenderer()
+ofGetGLRenderer()
+ofBeginSaveScreenAsPDF(...)
+ofEndSaveScreenAsPDF()
+ofPushView()
+ofPopView()
+ofViewport(...)
+ofSetupScreenPerspective(...)
+ofSetupScreenOrtho(...)
+ofGetCurrentViewport()
+ofGetViewportWidth()
+ofGetViewportHeight()
+ofOrientationToDegrees(...)
+ofSetCoordHandedness(...)
+ofGetCoordHandedness()
+ofTranslate(...)
+ofRotate(...)
+ofSetupScreen()
+ofSetCurveResolution(...)
+ofSetSphereResolution(...)
+ofGetFill()
+ofSetColor(...)
+ofSetHexColor(...)
+ofEnableBlendMode(...)
+ofDisableBlendMode()
+ofEnablePointSprites()
+ofDisablePointSprites()
+ofSetPolyMode(...)
+ofSetRectMode(...)
+ofBackground(...)
+ofBackgroundHex(...)
+ofSetBackgroundColor(...)
+ofSetBackgroundColorHex(...)
+ofClear(...)
+ofClearAlpha()
+ofTriangle(...)
+ofCircle(...)
+ofEllipse(...)
+ofLine(...)
+ofRect(...)
+ofCurve(...)
+ofBezier(...)
+ofVertex(...)
+ofVertexes(...)
+ofCurveVertex(...)
+ofCurveVertexes(...)
+ofBezierVertex(...)
+ofSphere(...)
+ofBox(...)
+ofSetDrawBitmapMode(...)
 
+
+###ofTrueTypeFont###
+__visible: true__
+__advanced: false__
+
+
+###ofPolyline###
+__visible: true__
+__advanced: false__
+
+
+###ofBitmapFont###
+__visible: true__
+__advanced: true__
+__functions__
+ofDrawBitmapCharacterStart(...)
+
+
+###ofTTFCharacter###
+__visible: true__
 __advanced: true__
 
-__functions__
 
-
-
-
-###ofQTKitGrabber###
-
+###ofTessellator###
 __visible: true__
+__advanced: false__
 
+
+###ofImage_###
+__visible: true__
+__advanced: false__
+
+
+###ofCairoRenderer###
+__visible: true__
 __advanced: true__
 
-__functions__
 
+###ofPixels_###
+__visible: true__
+__advanced: false__
+
+
+###ofRendererCollection###
+__visible: true__
+__advanced: false__
+
+
+___column___
 
 
 
 //----------------------
 
+##types##
 
-
-
-
-
-
-
-
-
-
-##sound##
-
-
-###ofFmodSoundPlayer###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofRtAudioSoundStream###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofPASoundStream###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofOpenALSoundPlayer###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofxiPhoneSoundStream###
-
-__visible: false__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofSoundPlayer###
-
+###ofColor_###
 __visible: true__
-
 __advanced: false__
 
-__functions__
-ofSoundGetSpectrum(...)
 
-ofSoundSetVolume(...)
-
-ofSoundShutdown()
-
-ofSoundStopAll()
-
-ofSoundUpdate()
-
-###ofSoundStream###
-
+###ofAbstractHasPixels###
 __visible: true__
-
-__advanced: false__
-
-__functions__
-ofSoundStreamClose()
-
-ofSoundStreamListDevices()
-
-ofSoundStreamSetup(...)
-
-ofSoundStreamStart()
-
-ofSoundStreamStop()
-
-//----------------------
-
-
-
-
-
-
-##application##
-
-
-###ofAppGlutWindow###
-
-__visible: true__
-
 __advanced: true__
 
-__functions__
 
-
-
-
-###ofAppBaseWindow###
-
+###ofBaseSoundStream###
 __visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofDragInfo###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofAppRunner###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-ofDisableSetupScreen()
-
-ofDoesHWOrientation()
-
-ofEnableSetupScreen()
-
-ofExit(...)
-
-ofGetAppPtr()
-
-ofGetFrameNum()
-
-ofGetFrameRate()
-
-ofGetHeight()
-
-ofGetLastFrameTime()
-
-ofGetOrientation()
-
-ofGetScreenHeight()
-
-ofGetScreenWidth()
-
-ofGetWidth()
-
-ofGetWindowHeight()
-
-ofGetWindowMode()
-
-ofGetWindowPositionX()
-
-ofGetWindowPositionY()
-
-ofGetWindowRect()
-
-ofGetWindowSize()
-
-ofGetWindowWidth()
-
-ofHideCursor()
-
-ofRunApp(...)
-
-ofSetAppPtr(...)
-
-ofSetFrameRate(...)
-
-ofSetFullscreen(...)
-
-ofSetOrientation(...)
-
-ofSetVerticalSync(...)
-
-ofSetWindowPosition(...)
-
-ofSetWindowShape(...)
-
-ofSetWindowTitle()
-
-ofSetupOpenGL(...)
-
-ofShowCursor()
-
-ofSleepMillis(...)
-
-ofToggleFullscreen()
-
-###ofBaseApp###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-//----------------------
-
-
-
-
-
-
-##serial##
-
-
-###ofSerial###
-
-__visible: true__
-
-__advanced: false__
-
-__functions__
-
-
-
-
-###ofSerialDeviceInfo###
-
-__visible: true__
-
 __advanced: true__
 
-__functions__
 
-
-
-
-//----------------------
-
-
-
-
-
-
-##arduino##
-
-
-###ofArduino###
-
+###ofBaseHasTexture###
 __visible: true__
+__advanced: true__
 
+
+###ofBaseImage###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseRenderer###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseUpdates###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseDraws###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseSoundOutput###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseSoundInput###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseLoggerChannel###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseVideoPlayer###
+__visible: true__
+__advanced: true__
+
+
+###ofStyle###
+__visible: true__
 __advanced: false__
 
-__functions__
 
-
-
-
-###ofStandardFirmata###
-
+###ofBaseSoundPlayer###
 __visible: true__
+__advanced: true__
 
+
+###ofBaseVideoGrabber###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseVideoDraws###
+__visible: true__
+__advanced: true__
+
+
+###ofRectangle###
+__visible: true__
 __advanced: false__
 
-__functions__
+
+###ofBaseVideo###
+__visible: true__
+__advanced: true__
 
 
+###ofBaseHasPixels_###
+__visible: true__
+__advanced: true__
+
+
+###ofPoint###
+__visible: true__
+__advanced: false__
+
+
+###ofBaseHasPixels###
+__visible: true__
+__advanced: true__
+
+
+###ofAbstractImage###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseImage_###
+__visible: true__
+__advanced: true__
+
+
+###ofBaseTypes###
+__visible: true__
+__advanced: true__
+
+
+###ofPtr###
+__visible: true__
+__advanced: false__
 
 
 //----------------------
 
 ##events##
 
-
 ###ofKeyEventArgs###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofAudioEventArgs###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofCoreEvents###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofEventArgs###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofEvent###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofMouseEventArgs###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofResizeEventArgs###
-
 __visible: true__
-
 __advanced: false__
-
-__functions__
-
-
 
 
 ###ofEvents###
-
 __visible: true__
-
 __advanced: false__
 
-__functions__
-ofGetKeyPressed(...)
-
-ofGetMousePressed(...)
-
-ofGetMouseX()
-
-ofGetMouseY()
-
-ofGetPreviousMouseX()
-
-ofGetPreviousMouseY()
-
-ofSetEscapeQuitsApp(...)
 
 ###ofEventUtils###
-
 __visible: true__
-
 __advanced: false__
 
-__functions__
-ofAddListener(...)
-
-ofNotifyEvent(...)
-
-ofRemoveListener(...)
 
 //----------------------
 
+##sound##
+
+###ofFmodSoundPlayer###
+__visible: false__
+__advanced: false__
 
 
+###ofRtAudioSoundStream###
+__visible: false__
+__advanced: false__
 
-___column___
+
+###ofPASoundStream###
+__visible: false__
+__advanced: false__
 
 
+###ofOpenALSoundPlayer###
+__visible: false__
+__advanced: false__
 
 
+###ofxiPhoneSoundStream###
+__visible: false__
+__advanced: false__
+
+
+###ofSoundPlayer###
+__visible: true__
+__advanced: false__
+
+
+###ofSoundStream###
+__visible: true__
+__advanced: false__
+
+
+//----------------------
+
+##application##
+
+###ofAppGlutWindow###
+__visible: true__
+__advanced: true__
+
+
+###ofAppBaseWindow###
+__visible: true__
+__advanced: false__
+
+
+###ofDragInfo###
+__visible: true__
+__advanced: false__
+
+
+###ofAppRunner###
+__visible: true__
+__advanced: false__
+__functions__
+ofGetFrameRate()
+ofGetFrameNum()
+ofSetFrameRate()
+ofSleepMillis(...)
+ofSetupOpenGL(...)
+ofRunApp(...)
+ofGetAppPtr()
+ofHideCursor()
+ofShowCursor()
+ofGetWindowPositionX()
+ofGetWindowPositionY()
+ofGetScreenWidth()
+ofGetScreenHeight()
+ofGetWindowMode()
+ofGetWidth()
+ofGetHeight()
+ofSetWindowPosition(...)
+ofSetWindowShape(...)
+ofSetWindowTitle()
+ofEnableSetupScreen()
+ofDisableSetupScreen()
+ofSetFullscreen(...)
+ofToggleFullscreen()
+ofSetupOpenGL(...)
+ofRunApp(...)
+ofSetAppPtr(...)
+ofExit(...)
+ofSetFrameRate(...)
+ofGetLastFrameTime()
+ofSetOrientation(...)
+ofGetOrientation()
+ofGetWindowWidth()
+ofGetWindowHeight()
+ofDoesHWOrientation()
+ofGetWindowSize()
+ofGetWindowRect()
+ofSetWindowPosition(...)
+ofSetWindowShape(...)
+ofSetWindowTitle(...)
+
+
+###ofBaseApp###
+__visible: true__
+__advanced: false__
+
+
+//----------------------
+
+##serial##
+
+###ofSerial###
+__visible: true__
+__advanced: false__
+
+
+###ofSerialDeviceInfo###
+__visible: true__
+__advanced: true__
+
+
+  
