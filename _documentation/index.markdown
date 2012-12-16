@@ -1,4 +1,4 @@
-//----------------------
+
 
 ###I want to get [straight on with some coding][onwithsomecoding]
 
@@ -8,7 +8,7 @@
 
 ###I need some help getting started programming
 
-//----------------------
+
 
 #Introduction#
 
@@ -27,9 +27,10 @@ The other way of using the code is for those programmers with more experience an
 ###And finally...###
 
 If there’s anything you’d like to add, then please contact the documentation team. We’re always looking for people to join us, so if you’d like to get stuck in and become part of the team, let us know. The documentation operates on the same principles as the development team. People come and go, contribute, give feedback or work on making major changes. However, you want to help out, let us know.
-//----------------------
 
-##Introduction
+
+
+##What is openFrameworks, anyway?
 
 openFrameworks is an open source C++ toolkit for creative coding.
 
