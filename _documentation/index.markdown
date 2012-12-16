@@ -1,6 +1,62 @@
 //----------------------
 
-##arduino##
+###I want to get [straight on with some coding][onwithsomecoding]
+
+###I want to understand the [available Classes][classes]
+
+###I want to [explore the methods][methods]
+
+###I need some help getting started programming
+
+//----------------------
+
+#Introduction#
+
+The openFrameworks documentation has been designed to be used in two different, but not necessarily separate ways. 
+
+A straightforward point of entry might be to answer one the the following questions about the way you’d like to use the documentation and click on the appropriate link to get started.
+
+##How to make the most of using the documentation##
+
+The general structure of the openFrameworks documentation is designed to support the first-time user who may have some previous experience of C++, but needs to become familiar with the classes, methods and structure of working with openFrameworks. One possible way fo working is to have it open alongside the examples supplied in the latest download of openFrameworks.
+
+Using it in this way means that you can easily search for the explanation of a class or method if you come across it in the example and want to explore it further. This way you might even uncover some of the less well known methods that the writers of the examples may not have used in their code (always a good way of showing off your skills and developing your programs).
+
+The other way of using the code is for those programmers with more experience and knowledge of openFrameworks. Or perhaps you just prefer to work from the classes and methods, and put things together for yourself? If you’re one of these types, then you can get stuck straight in. Over time, short snippets of code will be added to the documentation to help explain ways of applying it.
+
+###And finally...###
+
+If there’s anything you’d like to add, then please contact the documentation team. We’re always looking for more people to join us, so if you’d even like to get stuck in and become part of the team, let us know. 
+
+//----------------------
+
+##Introduction
+
+openFrameworks is an open source C++ toolkit for creative coding.
+
+###Is it a program?
+
+OF is not itself a program or an application but you can use OF to write your own programs and applications.
+
+###Is it a programming language?
+
+OF does not constitute its own programming language, the language you use to write programs with OF is C++.
+
+###So it's a library?
+
+OF is in fact made up of several software libraries but the specific way it integrates these libraries together is more appropriately called a software framework.
+
+###What is a software framework?
+
+A software framework is a kind of pre-fabricated software infrastructure designed to provide all of the low level functionality needed for an application while allowing a programmer to customize the higher level details of what that application should do. One way that using a framework differs from using a library is that the flow of control is inverted. A library can be directly controlled by your code to perform a set of general tasks. In a framework your code responds to events controlled by the framework and uses the framework as an interface to access the functionality of other libraries. Sound complicated? In fact many other multimedia authoring environments work this way even if they do so less transparently.
+Consider this loose analogy: You are writing and directing your own film and have decided to work with a film production company. The production company reserves the location, provides all of the infrastructure, finds the camera crew, lighting director, sound engineer and other important staff. It makes sure everyone is on the set on time and doing their job when they should, including you. Your job is to define what happens on the set once everyone is ready. OpenFrameworks is like a film production company for your program. It takes care of the administrative and logistical details and allows you to concentrate on your creative vision.
+
+
+
+
+  [onwithsomecoding]: http://www.openframeworks.cc/  "Title"
+  [classes]: http://www.google.com 
+  [methods]: http://www.openframeworks.cc/ 
 
 ###ofArduino###
 __visible: true__
@@ -786,3 +842,4 @@ __visible: true__
 __advanced: true__
 
 
+  
