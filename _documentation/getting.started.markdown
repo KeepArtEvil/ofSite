@@ -1,7 +1,7 @@
 #I need some help getting started programming
 
 The good news is, openFrameworks is supported by a broad and inclusive group of people 
-from across the globe. All of whom are more than happy to help with any issues you may find as you develop your skills and knowledge of oF (as those in the know call it)!
+from across the globe. All of whom are more than happy to help with any issues you may find as you develop your skills and knowledge of oF (as those in the know call it!).
 
 What you won’t necessarily get on the forums or mailing list, are the basic steps to understanding C++ programming and how openFrameworks is a part of that.
 
