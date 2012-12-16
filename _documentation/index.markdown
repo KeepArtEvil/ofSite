@@ -1,4 +1,5 @@
 
+###I want to understand [what openFrameworks is][whatisopenframeworks]?###
 
 ###I want to get [straight on with some coding][onwithsomecoding]
 
@@ -57,6 +58,7 @@ Consider this loose analogy: You are writing and directing your own film and hav
   [onwithsomecoding]: http://www.openframeworks.cc/  "Title"
   [classes]: http://www.google.com 
   [methods]: http://www.openframeworks.cc/ 
+  [whatisopenframeworks]:  http://www.openframeworks.cc/
 
 ###ofArduino###
 __visible: true__
