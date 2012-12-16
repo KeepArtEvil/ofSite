@@ -2,7 +2,7 @@
 
 ###I want to get [straight on with some coding][onwithsomecoding]
 
-###I want to understand the [available Classes][classes]
+###I want to understand the [available classes][classes]
 
 ###I want to [explore the methods][methods]
 
