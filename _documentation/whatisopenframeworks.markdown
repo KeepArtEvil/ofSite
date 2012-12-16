@@ -2,7 +2,7 @@
 
 ##Introduction
 
-openFrameworks (also regualrly referred to as <code>OF</code>) is an open source C++ toolkit for creative coding.
+openFrameworks (also regularly referred to as <code>OF</code>) is an open source C++ toolkit for creative coding.
 
 ###Is it a program?
 
