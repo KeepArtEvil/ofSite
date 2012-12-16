@@ -1,4 +1,3 @@
-
 ###I want to understand [what openFrameworks is][whatisopenframeworks]?###
 
 ###I want to get [straight on with some coding][onwithsomecoding]
@@ -28,31 +27,6 @@ The other way of using the code is for those programmers with more experience an
 ###And finally...###
 
 If there’s anything you’d like to add, then please contact the documentation team. We’re always looking for people to join us, so if you’d like to get stuck in and become part of the team, let us know. The documentation operates on the same principles as the development team. People come and go, contribute, give feedback or work on making major changes. However, you want to help out, let us know.
-
-
-
-##What is openFrameworks, anyway?
-
-openFrameworks is an open source C++ toolkit for creative coding.
-
-###Is it a program?
-
-OF is not itself a program or an application but you can use OF to write your own programs and applications.
-
-###Is it a programming language?
-
-OF does not constitute its own programming language, the language you use to write programs with OF is C++.
-
-###So it's a library?
-
-OF is in fact made up of several software libraries but the specific way it integrates these libraries together is more appropriately called a software framework.
-
-###What is a software framework?
-
-A software framework is a kind of pre-fabricated software infrastructure designed to provide all of the low level functionality needed for an application while allowing a programmer to customize the higher level details of what that application should do. One way that using a framework differs from using a library is that the flow of control is inverted. A library can be directly controlled by your code to perform a set of general tasks. In a framework your code responds to events controlled by the framework and uses the framework as an interface to access the functionality of other libraries. Sound complicated? In fact many other multimedia authoring environments work this way even if they do so less transparently.
-Consider this loose analogy: You are writing and directing your own film and have decided to work with a film production company. The production company reserves the location, provides all of the infrastructure, finds the camera crew, lighting director, sound engineer and other important staff. It makes sure everyone is on the set on time and doing their job when they should, including you. Your job is to define what happens on the set once everyone is ready. OpenFrameworks is like a film production company for your program. It takes care of the administrative and logistical details and allows you to concentrate on your creative vision.
-
-
 
 
   [onwithsomecoding]: http://www.openframeworks.cc/  "Title"
