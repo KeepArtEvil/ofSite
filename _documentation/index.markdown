@@ -12,7 +12,7 @@
 
 #Introduction#
 
-The openFrameworks documentation has been designed to be used in two different, but not necessarily separate ways. 
+The openFrameworks <code>documentation</code> has been designed to be used in two different, but not necessarily separate ways. 
 
 A straightforward point of entry might be to answer one the the following questions about the way you’d like to use the documentation and click on the appropriate link to get started.
 
