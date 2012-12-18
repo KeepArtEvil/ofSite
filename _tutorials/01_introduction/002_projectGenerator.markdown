@@ -24,7 +24,7 @@ Double click the app. This is our new friend.
 There are some options to consider when creating a new app.
 
 ### 1. Name:
-Give a name to yor project
+Give a name to your project
 
 ### 2. Path
 When you execute the projectGenerator, this should contain the absolute path to the myApps folder in the distribution you downloaded, usually something like
